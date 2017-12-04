@@ -21,6 +21,7 @@ namespace newfeixiang
         public static string public_pro3begin, public_pro3end;
 
         //凭证控件需要用到的表
+
         public static DataTable vouchereditdbfacc;
         public static DataTable vouchereditdbf;
 

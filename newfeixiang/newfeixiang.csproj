@@ -298,6 +298,38 @@
       <DependentUpon>monthpro3sql.cs</DependentUpon>
     </Compile>
     <Compile Include="wcoding\wcodingfinance.cs" />
+    <Compile Include="信息文件\皮肤控件\Skin\Backup\Skin\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="信息文件\皮肤控件\Skin\Backup\Skin\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="信息文件\皮肤控件\Skin\Backup\Skin\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="信息文件\皮肤控件\Skin\Backup\Skin\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="信息文件\皮肤控件\Skin\Backup\Skin\Program.cs" />
+    <Compile Include="信息文件\皮肤控件\Skin\Backup\Skin\Properties\AssemblyInfo.cs" />
+    <Compile Include="信息文件\皮肤控件\Skin\Backup\Skin\Properties\Resources.Designer.cs" />
+    <Compile Include="信息文件\皮肤控件\Skin\Backup\Skin\Properties\Settings.Designer.cs" />
+    <Compile Include="信息文件\皮肤控件\Skin\Skin\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="信息文件\皮肤控件\Skin\Skin\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="信息文件\皮肤控件\Skin\Skin\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="信息文件\皮肤控件\Skin\Skin\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="信息文件\皮肤控件\Skin\Skin\Program.cs" />
+    <Compile Include="信息文件\皮肤控件\Skin\Skin\Properties\AssemblyInfo.cs" />
+    <Compile Include="信息文件\皮肤控件\Skin\Skin\Properties\Resources.Designer.cs" />
+    <Compile Include="信息文件\皮肤控件\Skin\Skin\Properties\Settings.Designer.cs" />
     <Compile Include="待用\only_text.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -466,6 +498,23 @@
     <EmbeddedResource Include="monthpro3sql.resx">
       <DependentUpon>monthpro3sql.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="信息文件\皮肤控件\Skin\Backup\Skin\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="信息文件\皮肤控件\Skin\Backup\Skin\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="信息文件\皮肤控件\Skin\Backup\Skin\Properties\Resources.resx" />
+    <EmbeddedResource Include="信息文件\皮肤控件\Skin\Skin\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="信息文件\皮肤控件\Skin\Skin\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="信息文件\皮肤控件\Skin\Skin\obj\Debug\Skin.Form1.resources" />
+    <EmbeddedResource Include="信息文件\皮肤控件\Skin\Skin\obj\Debug\Skin.Form2.resources" />
+    <EmbeddedResource Include="信息文件\皮肤控件\Skin\Skin\obj\Debug\Skin.Properties.Resources.resources" />
+    <EmbeddedResource Include="信息文件\皮肤控件\Skin\Skin\Properties\Resources.resx" />
     <EmbeddedResource Include="待用\only_text.resx">
       <DependentUpon>only_text.cs</DependentUpon>
     </EmbeddedResource>
@@ -512,6 +561,76 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="信息文件\kiss系统进程\KillProcess.rar" />
+    <None Include="信息文件\皮肤控件\Skin.rar" />
+    <None Include="信息文件\皮肤控件\Skin\Backup\Skin\Properties\Settings.settings" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skin.vshost.exe.manifest" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\Calmness.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\CalmnessColor1.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\CalmnessColor2.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\DeepCyan.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\DeepGreen.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\DeepOrange.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\DiamondBlue.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\DiamondGreen.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\Eighteen.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\EighteenColor1.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\EighteenColor2.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\Emerald.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\EmeraldColor1.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\EmeraldColor2.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\EmeraldColor3.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\GlassBrown.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\GlassGreen.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\GlassOrange.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\Longhorn.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\MacOS.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\Midsummer.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\MidsummerColor1.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\MidsummerColor2.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\MidsummerColor3.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\MP10.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\MSN.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\OneBlue.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\OneCyan.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\OneGreen.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\OneOrange.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\Page.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\PageColor1.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\PageColor2.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\RealOne.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\Silver.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\SilverColor1.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\SilverColor2.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\SportsBlack.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\SportsBlue.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\SportsCyan.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\SportsGreen.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\SportsOrange.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\SteelBlack.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\SteelBlue.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\Vista.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\Vista2_color1.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\Vista2_color3.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\Vista2_color6.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\vistaGreen.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\Warm.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\WarmColor1.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\WarmColor2.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\WarmColor3.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\Wave.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\WaveColor1.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\WaveColor2.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\XPBlue.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\XPGreen.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\XPOrange.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skins\XPSilver.ssk" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\obj\Debug\Skin.csproj.GenerateResource.Cache" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\obj\Debug\Skin.csprojResolveAssemblyReference.cache" />
+    <None Include="信息文件\皮肤控件\Skin\Skin\Properties\Settings.settings" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -565,6 +684,28 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="信息文件\git信息.txt" />
+    <Content Include="信息文件\皮肤控件\Skin\Backup\Skin.sln" />
+    <Content Include="信息文件\皮肤控件\Skin\Backup\Skin\Mac OS X Modern Icon 39.ico" />
+    <Content Include="信息文件\皮肤控件\Skin\Backup\Skin\Skin.csproj" />
+    <Content Include="信息文件\皮肤控件\Skin\Skin.sln" />
+    <Content Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\IrisSkin2.dll" />
+    <Content Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skin.exe" />
+    <Content Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skin.pdb" />
+    <Content Include="信息文件\皮肤控件\Skin\Skin\bin\Debug\Skin.vshost.exe" />
+    <Content Include="信息文件\皮肤控件\Skin\Skin\Mac OS X Modern Icon 39.ico" />
+    <Content Include="信息文件\皮肤控件\Skin\Skin\obj\Debug\Skin.csproj.FileListAbsolute.txt" />
+    <Content Include="信息文件\皮肤控件\Skin\Skin\obj\Debug\Skin.exe" />
+    <Content Include="信息文件\皮肤控件\Skin\Skin\obj\Debug\Skin.pdb" />
+    <Content Include="信息文件\皮肤控件\Skin\Skin\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="信息文件\皮肤控件\Skin\Skin\Skin.csproj" />
+    <Content Include="信息文件\皮肤控件\Skin\Skin\Skin.csproj.user" />
+    <Content Include="信息文件\皮肤控件\Skin\UpgradeLog.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="信息文件\皮肤控件\Skin\.vs\Skin\v14\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
