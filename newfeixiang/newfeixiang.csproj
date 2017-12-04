@@ -561,6 +561,66 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="信息文件\bin文件夹下的文件\Skins\Calmness.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\CalmnessColor1.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\CalmnessColor2.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\DeepCyan.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\DeepGreen.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\DeepOrange.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\DiamondBlue.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\DiamondGreen.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\Eighteen.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\EighteenColor1.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\EighteenColor2.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\Emerald.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\EmeraldColor1.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\EmeraldColor2.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\EmeraldColor3.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\GlassBrown.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\GlassGreen.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\GlassOrange.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\Longhorn.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\MacOS.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\Midsummer.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\MidsummerColor1.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\MidsummerColor2.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\MidsummerColor3.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\MP10.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\MSN.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\OneBlue.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\OneCyan.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\OneGreen.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\OneOrange.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\Page.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\PageColor1.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\PageColor2.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\RealOne.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\Silver.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\SilverColor1.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\SilverColor2.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\SportsBlack.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\SportsBlue.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\SportsCyan.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\SportsGreen.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\SportsOrange.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\SteelBlack.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\SteelBlue.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\Vista.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\Vista2_color1.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\Vista2_color3.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\Vista2_color6.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\vistaGreen.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\Warm.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\WarmColor1.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\WarmColor2.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\WarmColor3.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\Wave.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\WaveColor1.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\WaveColor2.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\XPBlue.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\XPGreen.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\XPOrange.ssk" />
+    <None Include="信息文件\bin文件夹下的文件\Skins\XPSilver.ssk" />
     <None Include="信息文件\kiss系统进程\KillProcess.rar" />
     <None Include="信息文件\皮肤控件\Skin.rar" />
     <None Include="信息文件\皮肤控件\Skin\Backup\Skin\Properties\Settings.settings" />
@@ -686,6 +746,10 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="信息文件\bin文件夹下的文件\Skins\dlls\IrisSkin2.dll" />
+    <Content Include="信息文件\bin文件夹下的文件\ware\bj\bj001.jpg" />
+    <Content Include="信息文件\bin文件夹下的文件\ware\favicon.ico" />
+    <Content Include="信息文件\bin文件夹下的文件\ware\tree.gif" />
     <Content Include="信息文件\git信息.txt" />
     <Content Include="信息文件\皮肤控件\Skin\Backup\Skin.sln" />
     <Content Include="信息文件\皮肤控件\Skin\Backup\Skin\Mac OS X Modern Icon 39.ico" />
