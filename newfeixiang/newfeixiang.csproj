@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3228A14F-3138-4533-9971-C388E2DB65F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>newfeixiang</RootNamespace>
+    <AssemblyName>newfeixiang</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin2">
+      <HintPath>信息文件\皮肤控件\Skin\Skin\bin\Debug\IrisSkin2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="accountacc\accountacc_all.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accountacc\accountacc_all.Designer.cs">
+      <DependentUpon>accountacc_all.cs</DependentUpon>
+    </Compile>
+    <Compile Include="accountacc\accountacc_one.cs" />
+    <Compile Include="accountacc\accountone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accountacc\accountone.Designer.cs">
+      <DependentUpon>accountone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="accountacc\accountonesql.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accountacc\accountonesql.Designer.cs">
+      <DependentUpon>accountonesql.cs</DependentUpon>
+    </Compile>
+    <Compile Include="accountacc\accountonesql_qc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accountacc\accountonesql_qc.Designer.cs">
+      <DependentUpon>accountonesql_qc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_GlobalClass\begin_public.cs" />
+    <Compile Include="a_GlobalClass\con_sql.cs" />
+    <Compile Include="a_GlobalClass\other_static.cs" />
+    <Compile Include="a_GlobalClass\userInfo.cs" />
+    <Compile Include="a_qg_trol\aqgvoucher\containerall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containerall.Designer.cs">
+      <DependentUpon>containerall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containerallall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containerallall.Designer.cs">
+      <DependentUpon>containerallall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containeredit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containeredit.Designer.cs">
+      <DependentUpon>containeredit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containerinto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containerinto.Designer.cs">
+      <DependentUpon>containerinto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containermoneyall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containermoneyall.Designer.cs">
+      <DependentUpon>containermoneyall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containermoneyallcon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containermoneyallcon.Designer.cs">
+      <DependentUpon>containermoneyallcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containermoneybottom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containermoneybottom.Designer.cs">
+      <DependentUpon>containermoneybottom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containerselect.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containerselect.Designer.cs">
+      <DependentUpon>containerselect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containertextbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containertextbox.Designer.cs">
+      <DependentUpon>containertextbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containertitle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containertitle.Designer.cs">
+      <DependentUpon>containertitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containertitleall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\aqgvoucher\containertitleall.Designer.cs">
+      <DependentUpon>containertitleall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_bt_label.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_bt_label.Designer.cs">
+      <DependentUpon>qg_bt_label.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_button.Designer.cs">
+      <DependentUpon>qg_button.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_button_quit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_button_quit.Designer.cs">
+      <DependentUpon>qg_button_quit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_button_small.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_button_small.Designer.cs">
+      <DependentUpon>qg_button_small.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_form.Designer.cs">
+      <DependentUpon>qg_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_grid_tree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_grid_tree.Designer.cs">
+      <DependentUpon>qg_grid_tree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_label.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_label.Designer.cs">
+      <DependentUpon>qg_label.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_radio_group.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_radio_group.Designer.cs">
+      <DependentUpon>qg_radio_group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_zy.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>a_qg_zy.resx</DependentUpon>
+    </Compile>
+    <Compile Include="a_sqlconn\Cs_Datatable.cs" />
+    <Compile Include="a_sqlconn\MyPinYin.cs" />
+    <Compile Include="a_sqlconn\other.cs" />
+    <Compile Include="a_sqlconn\qg_common.cs" />
+    <Compile Include="a_sqlconn\SX_Static.cs" />
+    <Compile Include="begin.cs" />
+    <Compile Include="begin_class.cs" />
+    <Compile Include="customercoding\customercodingsubbill.cs" />
+    <Compile Include="customercoding\customercodingsub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customercoding\customercodingsub.Designer.cs">
+      <DependentUpon>customercodingsub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="daywork\daywork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="daywork\daywork.Designer.cs">
+      <DependentUpon>daywork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="daywork\dayworkaacal1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="daywork\dayworkaacal1.Designer.cs">
+      <DependentUpon>dayworkaacal1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="daywork\dayworksql.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="daywork\dayworksql.Designer.cs">
+      <DependentUpon>dayworksql.cs</DependentUpon>
+    </Compile>
+    <Compile Include="daywork\dayworksqlform.cs" />
+    <Compile Include="daywork\dayworksqlsql.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="daywork\dayworksqlsql.Designer.cs">
+      <DependentUpon>dayworksqlsql.cs</DependentUpon>
+    </Compile>
+    <Compile Include="daywork\daywork_one.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_sqlconn\WaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="a_sqlconn\WaitForm.Designer.cs">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_sqlconn\WaitFormService.cs" />
+    <Compile Include="monthpro3sql.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="monthpro3sql.Designer.cs">
+      <DependentUpon>monthpro3sql.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wcoding\wcodingfinance.cs" />
+    <Compile Include="待用\only_text.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="待用\only_text.Designer.cs">
+      <DependentUpon>only_text.cs</DependentUpon>
+    </Compile>
+    <Compile Include="passs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="passs.Designer.cs">
+      <DependentUpon>passs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="a_qg_trol\qg_combobox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_combobox.Designer.cs">
+      <DependentUpon>qg_combobox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_dy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_dy.Designer.cs">
+      <DependentUpon>qg_dy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_grid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_grid.Designer.cs">
+      <DependentUpon>qg_grid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_jd_combobox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_jd_combobox.Designer.cs">
+      <DependentUpon>qg_jd_combobox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_read_text.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_read_text.Designer.cs">
+      <DependentUpon>qg_read_text.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_text.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_text.Designer.cs">
+      <DependentUpon>qg_text.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_text_spinner.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="a_qg_trol\qg_text_spinner.Designer.cs">
+      <DependentUpon>qg_text_spinner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="two.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="two.Designer.cs">
+      <DependentUpon>two.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="accountacc\accountacc_all.resx">
+      <DependentUpon>accountacc_all.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="accountacc\accountone.resx">
+      <DependentUpon>accountone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="accountacc\accountonesql.resx">
+      <DependentUpon>accountonesql.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="accountacc\accountonesql_qc.resx">
+      <DependentUpon>accountonesql_qc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\aqgvoucher\containerall.resx">
+      <DependentUpon>containerall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\aqgvoucher\containerallall.resx">
+      <DependentUpon>containerallall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\aqgvoucher\containeredit.resx">
+      <DependentUpon>containeredit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\aqgvoucher\containerinto.resx">
+      <DependentUpon>containerinto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\aqgvoucher\containermoneyall.resx">
+      <DependentUpon>containermoneyall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\aqgvoucher\containermoneyallcon.resx">
+      <DependentUpon>containermoneyallcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\aqgvoucher\containermoneybottom.resx">
+      <DependentUpon>containermoneybottom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\aqgvoucher\containerselect.resx">
+      <DependentUpon>containerselect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\aqgvoucher\containertextbox.resx">
+      <DependentUpon>containertextbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\aqgvoucher\containertitle.resx">
+      <DependentUpon>containertitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\aqgvoucher\containertitleall.resx">
+      <DependentUpon>containertitleall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\qg_button.resx">
+      <DependentUpon>qg_button.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\qg_button_quit.resx">
+      <DependentUpon>qg_button_quit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\qg_button_small.resx">
+      <DependentUpon>qg_button_small.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\qg_form.resx">
+      <DependentUpon>qg_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\qg_grid_tree.resx">
+      <DependentUpon>qg_grid_tree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\qg_label.resx">
+      <DependentUpon>qg_label.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\qg_radio_group.resx">
+      <DependentUpon>qg_radio_group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\qg_read_text.resx">
+      <DependentUpon>qg_read_text.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_zy.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>a_qg_zy.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customercoding\customercodingsub.resx">
+      <DependentUpon>customercodingsub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="daywork\daywork.resx">
+      <DependentUpon>daywork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="daywork\dayworkaacal1.resx">
+      <DependentUpon>dayworkaacal1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="daywork\dayworksql.resx">
+      <DependentUpon>dayworksql.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="daywork\dayworksqlsql.resx">
+      <DependentUpon>dayworksqlsql.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_sqlconn\WaitForm.resx">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="monthpro3sql.resx">
+      <DependentUpon>monthpro3sql.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="待用\only_text.resx">
+      <DependentUpon>only_text.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="passs.resx">
+      <DependentUpon>passs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="a_qg_trol\qg_combobox.resx">
+      <DependentUpon>qg_combobox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\qg_dy.resx">
+      <DependentUpon>qg_dy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\qg_grid.resx">
+      <DependentUpon>qg_grid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\qg_jd_combobox.resx">
+      <DependentUpon>qg_jd_combobox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\qg_text.resx">
+      <DependentUpon>qg_text.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_qg_trol\qg_text_spinner.resx">
+      <DependentUpon>qg_text_spinner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="two.resx">
+      <DependentUpon>two.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ware\tree.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ware\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel1">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
